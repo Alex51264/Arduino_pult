@@ -105,6 +105,6 @@ void loop() {
   for (int i=1; i <= 33; i++){ if (line[i]!= old[i]) leds[i] = CRGB::Red;}
   FastLED.show();
 
-  
+  //проверка состояния
   }
   
